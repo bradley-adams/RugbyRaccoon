@@ -1,9 +1,22 @@
-# React/Redux client consuming an Express server with Passport local auth using JWTs
+# The Rugby Raccoon
+Quick, simple and relevant rugby game infomation.
+
+## Working on
+* Getting the boilerplate working.
+* Get a homepage showing.
+
+## Project Notes
+* New to using Auth. Will make admin easier in the long run.
+* Planning to use bootstrap. (Haven't used previously)
+* EDA Fullstack
+
+## BOILERPLATE INFO BELOW
+## React/Redux client consuming an Express server with Passport local auth using JWTs
 
 This demonstrates a fairly minimal username/password auth scenario that makes use of libsodium/Argon2i password hashing. There's also a tiny API to show how JWTs might be used to secure it.
 
 
-## Setup
+### Setup
 
 ```shell
 yarn
@@ -15,7 +28,7 @@ yarn dev
 * Go to [http://localhost:3000](http://localhost:3000) to see the site.
 
 
-## Deploying to Heroku
+### Deploying to Heroku
 
 The database migration doesn't run automatically in `postinstall` on production builds, so you'll need to invoke it manually. Always a good idea to make sure you don't accidentally nuke your production database!
 
@@ -26,7 +39,7 @@ heroku addons:create heroku-postgresql:hobby-dev
 heroku run npm run migrate:prod
 ```
 
-## More information
+### More information
 
 The session and JWT secrets are loaded from environment variables.
 
@@ -51,7 +64,7 @@ curl -k -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6O
 Notice the space between `Bearer` and the token. Compare the response to requests with the token and without it.
 
 
-## Things to think about
+### Things to think about
 
 This demo omits plenty of things that a production system would have to care about. For example, how could we better validate the registration form? Right now a user can be created with username ' ' and password ' ': hardly ideal!
 
