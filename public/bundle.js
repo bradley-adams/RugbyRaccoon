@@ -28279,13 +28279,7 @@ var App = function App() {
     _react2.default.createElement(
       'h1',
       null,
-      'Quotes'
-    ),
-    _react2.default.createElement(_Navbar2.default, null),
-    _react2.default.createElement(
-      'div',
-      { className: 'quote' },
-      _react2.default.createElement(_Quote2.default, null)
+      'The Rugby Raccoon'
     )
   );
 };
@@ -28474,11 +28468,11 @@ var Navbar = function Navbar(_ref) {
           _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', render: function render() {
               return _react2.default.createElement(_Links2.default, { active: 'Home' });
             } }),
-          _react2.default.createElement(_reactRouterDom.Route, { path: '/login', render: function render() {
+          _react2.default.createElement(_reactRouterDom.Route, { path: '/NPC', render: function render() {
               return _react2.default.createElement(
                 'div',
                 null,
-                _react2.default.createElement(_Links2.default, { active: 'Login' }),
+                _react2.default.createElement(_Links2.default, { active: 'NPC' }),
                 _react2.default.createElement(_LoginForm2.default, null)
               );
             } }),
@@ -28538,10 +28532,24 @@ var Links = function Links(_ref) {
     ),
     ' | ',
     ' ',
-    active === 'Register' ? 'Register' : _react2.default.createElement(
+    active === 'NPC' ? 'NPC' : _react2.default.createElement(
       _reactRouterDom.Link,
-      { to: '/register' },
-      'Register'
+      { to: '/NPC' },
+      'NPC'
+    ),
+    ' | ',
+    ' ',
+    active === 'Super' ? 'Super' : _react2.default.createElement(
+      _reactRouterDom.Link,
+      { to: '/Super' },
+      'Super'
+    ),
+    ' | ',
+    ' ',
+    active === 'International' ? 'International' : _react2.default.createElement(
+      _reactRouterDom.Link,
+      { to: '/International' },
+      'International'
     ),
     ' | ',
     ' ',
