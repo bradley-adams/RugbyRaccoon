@@ -8,9 +8,9 @@ import thunk from 'redux-thunk'
 import reducers from './reducers'
 import App from './components/App'
 
-const store = createStore(reducers, compose(
+let store = createStore(reducers, compose(
   applyMiddleware(thunk),
-  window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+  window.devToolsExtension ? window.devToolsExtension() : f => f
 ))
 
 document.addEventListener('DOMContentLoaded', () => {
