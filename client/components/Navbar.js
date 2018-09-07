@@ -17,9 +17,9 @@ const Navbar = ({isAuthenticated}) => {
               <Route exact path='/' render={() => (
                 <Links active='Home' />
               )} />
-              <Route path='/login' render={() => (
+              <Route path='/NPC' render={() => (
                 <div>
-                  <Links active='Login' />
+                  <Links active='NPC' />
                   <LoginForm />
                 </div>
               )} />
