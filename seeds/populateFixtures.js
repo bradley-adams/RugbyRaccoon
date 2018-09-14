@@ -10,7 +10,7 @@ exports.seed = function (knex, Promise) {
                     awayteam: 'Northland',
                     venue: 'QBE Stadium, North Harbour',
                     datetime: '2018-08-16 19:35',
-                    score: '21-20'
+                    score: '21-20',
                 },
                 {
                     id: 2,
@@ -380,6 +380,86 @@ exports.seed = function (knex, Promise) {
                     awayteam: 'Auckland',
                     venue: 'Christchurch Stadium, Christchurch',
                     datetime: '2018-09-16 16:35',
+                    score: '0'
+                },
+                {
+                    id: 39,
+                    competition: 'Provincial',
+                    round: 6,
+                    hometeam: 'Manawatu',
+                    awayteam: 'Tasman',
+                    venue: 'Central Energy Trust Arena, Palmerston North',
+                    datetime: '2018-09-19 19:35',
+                    score: '0'
+                },
+                {
+                    id: 40,
+                    competition: 'Provincial',
+                    round: 6,
+                    hometeam: 'Northland',
+                    awayteam: 'Southland',
+                    venue: 'Toll Stadium, Whangarei',
+                    datetime: '2018-09-20 19:35',
+                    score: '0'
+                },
+                {
+                    id: 39,
+                    competition: 'Provincial',
+                    round: 6,
+                    hometeam: 'Bay of Plenty',
+                    awayteam: 'Waikato',
+                    venue: 'Rotorua International Stadium',
+                    datetime: '2018-09-21 19:35',
+                    score: '0'
+                },
+                {
+                    id: 40,
+                    competition: 'Provincial',
+                    round: 6,
+                    hometeam: 'Hawke’s Bay',
+                    awayteam: 'North Harbour',
+                    venue: 'McLean Park, Napier',
+                    datetime: '2018-09-22 14:35',
+                    score: '0'
+                },
+                {
+                    id: 39,
+                    competition: 'Provincial',
+                    round: 6,
+                    hometeam: 'Otago',
+                    awayteam: 'Canterbury',
+                    venue: 'Forsyth Barr Stadium, Dunedin',
+                    datetime: '2018-09-22 17:05',
+                    score: '0'
+                },
+                {
+                    id: 40,
+                    competition: 'Provincial',
+                    round: 6,
+                    hometeam: 'Taranaki',
+                    awayteam: 'Auckland',
+                    venue: 'Yarrow Stadium, Taranaki',
+                    datetime: '2018-09-22 19:35',
+                    score: '0'
+                },
+                {
+                    id: 39,
+                    competition: 'Provincial',
+                    round: 6,
+                    hometeam: 'Tasman',
+                    awayteam: 'Counties Manukau',
+                    venue: 'Trafalgar Park, Nelson',
+                    datetime: '2018-09-23 14:05',
+                    score: '0'
+                },
+                {
+                    id: 40,
+                    competition: 'Provincial',
+                    round: 6,
+                    hometeam: 'Manawatu',
+                    awayteam: 'Wellington',
+                    venue: 'Central Energy Trust Arena, Palmerston North',
+                    datetime: '2018-09-23 16:35',
                     score: '0'
                 },
                 {
