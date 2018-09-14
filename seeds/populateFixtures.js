@@ -403,7 +403,7 @@ exports.seed = function (knex, Promise) {
                     score: '0'
                 },
                 {
-                    id: 39,
+                    id: 41,
                     competition: 'Provincial',
                     round: 6,
                     hometeam: 'Bay of Plenty',
@@ -413,7 +413,7 @@ exports.seed = function (knex, Promise) {
                     score: '0'
                 },
                 {
-                    id: 40,
+                    id: 42,
                     competition: 'Provincial',
                     round: 6,
                     hometeam: 'Hawke’s Bay',
@@ -423,7 +423,7 @@ exports.seed = function (knex, Promise) {
                     score: '0'
                 },
                 {
-                    id: 39,
+                    id: 43,
                     competition: 'Provincial',
                     round: 6,
                     hometeam: 'Otago',
@@ -433,7 +433,7 @@ exports.seed = function (knex, Promise) {
                     score: '0'
                 },
                 {
-                    id: 40,
+                    id: 44,
                     competition: 'Provincial',
                     round: 6,
                     hometeam: 'Taranaki',
@@ -443,7 +443,7 @@ exports.seed = function (knex, Promise) {
                     score: '0'
                 },
                 {
-                    id: 39,
+                    id: 45,
                     competition: 'Provincial',
                     round: 6,
                     hometeam: 'Tasman',
@@ -453,7 +453,7 @@ exports.seed = function (knex, Promise) {
                     score: '0'
                 },
                 {
-                    id: 40,
+                    id: 46,
                     competition: 'Provincial',
                     round: 6,
                     hometeam: 'Manawatu',
@@ -463,19 +463,89 @@ exports.seed = function (knex, Promise) {
                     score: '0'
                 },
                 {
-                    id: 39,
+                    id: 47,
                     competition: 'Provincial',
-                    round: 6,
-                    hometeam: '',
-                    awayteam: '',
-                    venue: '',
-                    datetime: '2018-09-12 19:35',
-                    score: ''
+                    round: 7,
+                    hometeam: 'Hawke’s Bay',
+                    awayteam: 'Northland',
+                    venue: 'McLean Park, Napier',
+                    datetime: '2018-09-26 19:35',
+                    score: '0'
                 },
                 {
-                    id: 40,
+                    id: 48,
                     competition: 'Provincial',
-                    round: 6,
+                    round: 7,
+                    hometeam: 'Bay of Plenty',
+                    awayteam: 'Manawatu',
+                    venue: 'Rotorua International Stadium',
+                    datetime: '2018-09-27 19:35',
+                    score: '0'
+                },
+                {
+                    id: 49,
+                    competition: 'Provincial',
+                    round: 7,
+                    hometeam: 'Auckland',
+                    awayteam: 'Otago',
+                    venue: 'Eden Park, Auckland',
+                    datetime: '2018-09-28 19:35',
+                    score: '0'
+                },
+                {
+                    id: 50,
+                    competition: 'Provincial',
+                    round: 7,
+                    hometeam: 'Waikato',
+                    awayteam: 'Southland',
+                    venue: 'FMG Stadium Waikato, Hamilton',
+                    datetime: '2018-09-29 14:35',
+                    score: '0'
+                },
+                {
+                    id: 51,
+                    competition: 'Provincial',
+                    round: 7,
+                    hometeam: 'Taranaki',
+                    awayteam: 'North Harbour',
+                    venue: 'Yarrow Stadium, Taranaki',
+                    datetime: '2018-09-12 17:05',
+                    score: '0'
+                },
+                {
+                    id: 52,
+                    competition: 'Provincial',
+                    round: 7,
+                    hometeam: 'Wellington',
+                    awayteam: 'Tasman',
+                    venue: 'Westpac Stadium, Wellington',
+                    datetime: '2018-09-12 19:35',
+                    score: '0'
+                },
+                {
+                    id: 53,
+                    competition: 'Provincial',
+                    round: 7,
+                    hometeam: 'Canterbury',
+                    awayteam: 'Hawke’s Bay',
+                    venue: 'Christchurch Stadium, Christchurch',
+                    datetime: '2018-09-30 14:05',
+                    score: '0'
+                },
+                {
+                    id: 54,
+                    competition: 'Provincial',
+                    round: 7,
+                    hometeam: 'Counties Manukau',
+                    awayteam: 'Northland',
+                    venue: 'Navigation Homes Stadium, Pukekohe',
+                    datetime: '2018-09-30 16:35',
+                    score: '0'
+                },
+                {
+                    id: 55,
+                    competition: 'Provincial',
+                    round: 8,
                     hometeam: '',
                     awayteam: '',
                     venue: '',
