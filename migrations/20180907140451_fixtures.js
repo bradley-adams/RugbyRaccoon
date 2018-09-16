@@ -1,5 +1,5 @@
 exports.up = knex => knex.schema.createTable('fixtures', table => {
-    table.increments('id').primary()
+    table.interger('id').primary()
     table.string('competition')
     table.interger('round')
     table.string('hometeam')

@@ -1,10 +1,10 @@
 import request from '../utils/api'
 
-export const QUOTE_REQUEST = 'QUOTE_REQUEST'
-export const QUOTE_SUCCESS = 'QUOTE_SUCCESS'
-export const QUOTE_FAILURE = 'QUOTE_FAILURE'
+export const FIXTURE_REQUEST = 'FIXTURE_REQUEST'
+export const FIXTURE_SUCCESS = 'FIXTURE_SUCCESS'
+export const FIXTURE_FAILURE = 'FIXTURE_FAILURE'
 
-export function fetchQuote () {
+export function fetchfixture () {
   return function (dispatch) {
     dispatch(requestQuote())
     request('get', '/quote')

@@ -3778,8 +3778,8 @@ module.exports = isObject;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.QUOTE_FAILURE = exports.QUOTE_SUCCESS = exports.QUOTE_REQUEST = undefined;
-exports.fetchQuote = fetchQuote;
+exports.FIXTURE_FAILURE = exports.FIXTURE_SUCCESS = exports.FIXTURE_REQUEST = undefined;
+exports.fetchfixture = fetchfixture;
 exports.fetchSecretQuote = fetchSecretQuote;
 exports.receiveQuote = receiveQuote;
 
@@ -3789,11 +3789,11 @@ var _api2 = _interopRequireDefault(_api);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var QUOTE_REQUEST = exports.QUOTE_REQUEST = 'QUOTE_REQUEST';
-var QUOTE_SUCCESS = exports.QUOTE_SUCCESS = 'QUOTE_SUCCESS';
-var QUOTE_FAILURE = exports.QUOTE_FAILURE = 'QUOTE_FAILURE';
+var FIXTURE_REQUEST = exports.FIXTURE_REQUEST = 'FIXTURE_REQUEST';
+var FIXTURE_SUCCESS = exports.FIXTURE_SUCCESS = 'FIXTURE_SUCCESS';
+var FIXTURE_FAILURE = exports.FIXTURE_FAILURE = 'FIXTURE_FAILURE';
 
-function fetchQuote() {
+function fetchfixture() {
   return function (dispatch) {
     dispatch(requestQuote());
     (0, _api2.default)('get', '/quote').then(function (res) {
